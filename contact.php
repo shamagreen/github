@@ -7,7 +7,7 @@
 <div id="wrapper">
 <?php include("pages/header.php"); ?>
 
-<?php include("pages/left_column.php")
+<?php include("pages/left_column.php"); ?>
 
 <div id="rightcolumn">
 <br/>

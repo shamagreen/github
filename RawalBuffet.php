@@ -21,9 +21,9 @@ Every dish at RAWAL is prepared freshly on site and we take great pride in buyin
  <p>
 RAWAL Buffet is open 7 days a week.
 
-Lunch option with limited dishes is available between 12:00pm and 4:00pm all other days but Fridays.
+Lunch option with limited dishes is available between 12:00pm and 5:00pm all other days but Fridays.
 
-Dinner option with all buffet dishes is available from 5:30pm till 11:00pm everyday thoughout the week.
+Dinner option with all buffet dishes is available from 6:30pm till 12:00pm everyday thoughout the week.
 
 </p>
  <p>

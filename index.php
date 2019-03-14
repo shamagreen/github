@@ -10,7 +10,7 @@
 
 <?php include("pages/left_column.php"); ?>
 
-<?php include("right_column.php"); ?>
+<?php include("pages/right_column.php"); ?>
 <?php include("pages/footer.php"); ?>
 </div>
 </body>

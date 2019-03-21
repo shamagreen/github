@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" 
+  integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+      <title>Travelloge</title>
+    </head>
+
+    <body>
+      <!--navbar-->
+<div class="navbar-fixed">
+<nav class="teal">
+  <div class="container">
+<div class="nav-wrapper">
+      <a href="#" class="brand-logo">Travelloge</a>
+   <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+   <ul class="right hide-on-med-and-down">
+        <li><a href="home">Home</a></li>
+        <li><a href="search">Search</a></li>
+        <li><a href="popular">Popular Places</a></li>
+        <li><a href="gallery">Gallery</a></li>
+         <li><a href="contact">Contact</a></li>
+      </ul>
+  </div>
+</div>
+</nav>
+ <ul class="sidenav" id="mobile-demo">
+        <li><a href="home">Home</a></li>
+        <li><a href="search">Search</a></li>
+        <li><a href="popular">Popular Places</a></li>
+        <li><a href="gallery">Gallery</a></li>
+         <li><a href="contact">Contact</a></li>
+      </ul>
+</div>
+<!--section slider-->
+<section class="slider">
+ <ul class="slides">
+      <li>
+        <img src="images/travel1.jpg"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>Take Your Dream Vacation!</h3>
+          <h5 class="light grey-text text-lighten-3 hide-on-small-only">Looking for a HOT Holiday in the sun? No matter whether you want to relax on the best beaches or are seeking a short break in the city, we’ve got the best deals to suit all budgets. We’re here to make your dream holiday come true. ABTA and ATOL bonded.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="images/travel2.jpg"> <!-- random image -->
+        <div class="caption left-align">
+          <h3>We Work With All Budgets</h3>
+          <h5 class="light grey-text text-lighten-3 hide-on-small-only">We list all the latest deals available and we constantly update the site 24 hours a day, 7 days a week.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="images/travel3.jpg"> <!-- random image -->
+        <div class="caption right-align">
+          <h3>Group & Individual Getaways</h3>
+          <h5 class="light grey-text text-lighten-3 hide-on-small-only">Enjoy HUGE Savings on Holiday Deals with Super Low Deposit of just £49pp. All Holidays are ATOL/TTA Protected & come with Monthly Payment Options. Book Now!</h5>
+        </div>
+      </li>
+      </ul>
+   </section>
+
+      <!--JavaScript at end of body for optimized loading-->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+     <script>
+ $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+
+// slider
+ $(document).ready(function(){
+    $('.slider').slider();
+
+  });
+     </script>
+    </body>
+  </html>
